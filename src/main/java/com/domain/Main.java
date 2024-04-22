@@ -1,7 +1,10 @@
 package com.domain;
 
+import com.domain.ui.ValidatorUI;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ValidatorUI ui = new ValidatorUI();
+        ui.start();
     }
 }
